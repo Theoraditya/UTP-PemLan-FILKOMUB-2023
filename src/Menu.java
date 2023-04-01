@@ -7,19 +7,17 @@ public class Menu {
         this.harga = harga;
     }
 
-    public String getNama() {
-        return nama;
-    }
-
     public void setNama(String nama) {
         this.nama = nama;
     }
-
+    public String getNama() {
+        return nama;
+    }
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
     public int getHarga() {
         return harga;
     }
 
-    public void setHarga(int harga) {
-        this.harga = harga;
-    }
 }
